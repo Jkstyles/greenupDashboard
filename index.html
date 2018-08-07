@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
@@ -19,31 +20,32 @@
         </div>
     </header>
     <div class="container" style='height: 1000px; background-color: rgba(32, 3, 3, 0.1);'>
-        <div class='row'>
-            <div class="col-lg-2 flex-wrap " style='height: 1000px'>
 
-                <div class="custom-control custom-checkbox">
+        <div class='row'>
+            <div class="col-lg-2 checkBoxColumn" style='height: 1000px'>
+
+                <div class="teamCheck custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck1">
                     <label class="custom-control-label" for="customCheck1">Total Number of Teams</label>
                 </div>
-                <div class="custom-control custom-checkbox">
+                <div class="volunteerCheck custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck2">
                     <label class="custom-control-label" for="customCheck2">Total Number of Volunteers</label>
                 </div>
 
-                <div class="custom-control custom-checkbox">
+                <div class="trashCheck custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck3">
                     <label class="custom-control-label" for="customCheck3">Total Number of Trash Drops</label>
                 </div>
-
+                
             </div>
+
+            <div class="col-lg-5 mapColumn" style='height: 1000px'>map</div>
+            <div class="col-lg-5 statsColumn" style='height: 1000px'>stats</div>
         </div>
     </div>
+    </div>
 
-    <div class="col-lg-5 flex-wrap map" style='height: 1000px'>map</div>
-    <div class="col-lg-5 flex-wrap stats" style='height: 1000px'>stats</div>
-    </div>
-    </div>
 
 </body>
 
